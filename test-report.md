@@ -66,4 +66,12 @@ However:
 1. Fix BUG-001 and BUG-003 before submission (blockers for gameplay and platform compliance).  
 2. Fix BUG-002 to improve user experience, though it’s not release-blocking.  
 3. Perform a regression test on HP system and replay functionality after fixes.  
-4. Re-run full test before pre-submit checks.  
+4. Re-run full test before pre-submit checks.
+
+## 7. Exploratory Testing Summary
+- Explored edge cases around HP mechanics, checkpoint transitions, and UI responsiveness.
+- Confirmed BUG-001 and BUG-002 during exploratory play.
+- Found 2 new potential issues:
+  - Resume button sometimes requires two taps.
+  - Overlapping "HEADSHOT" popups when killing multiple enemies quickly.
+
